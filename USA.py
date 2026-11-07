@@ -10,7 +10,7 @@ Original file is located at
 # @title 🚀 المنصة الاحترافية المطورة (Streamlit Pro): إصلاح غرفة العمليات + الفلاتر الذكية + التحديث التلقائي الحقيقي + الشارت المرتب
 # انسخ الكود بالكامل في خلية واحدة داخل Google Colab واضغط تشغيل (▶️)
 
-!pip install -q streamlit yfinance plotly pandas numpy pytz requests streamlit-autorefresh
+#!pip install -q streamlit yfinance plotly pandas numpy pytz requests streamlit-autorefresh
 
 with open("requirements.txt", "w", encoding="utf-8") as f:
     f.write("streamlit>=1.38.0\nyfinance>=0.2.40\nplotly>=5.22.0\npandas>=2.0.0\nnumpy>=1.24.0\npytz\nrequests\nstreamlit-autorefresh\n")
